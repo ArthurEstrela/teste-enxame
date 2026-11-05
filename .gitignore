@@ -1,0 +1,33 @@
+# Build & Dependency Artifacts
+**/target/
+**/node_modules/
+**/.next/
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# Logs & Temp
+*.log
+**/*.log
+*.tmp
+**/*.tmp
+*.pdf
+**/*.pdf
+
+# Local Environment & Secrets
+.env
+.env*.local
+*.key
+*.pem
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
